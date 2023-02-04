@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Microsoft Homepage</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: rgb(255,255,255);
+                overflow: hidden;
+            }
+            #mainPicture{
+                position: absolute;
+                width: 100%;
+                height: 480px;
+                top: 55px;
+                z-index: 1;
+            }
+            #mainText{
+                position: absolute;
+                z-index: 2;
+                font-family: Helvetica;
+                top: 190px;
+                left: 140px;
+                font-size: 40px;
+                font-weight: lighter;
+            }
+            .button{
+                position: absolute;
+                border: none;
+                cursor: pointer;
+                z-index: 2;
+            }
+            .textButton{
+                text-decoration: none;
+            }
+            .textButton:hover{
+                text-decoration: underline;
+                text-underline-offset: 5px;
+            }
+            #hide{
+                position: absolute;
+                top: 0px;
+                width: 120px;
+                height: 40px;
+                border-style: solid;
+                border: none;
+                background-color: rgb(255, 255, 255);
+                z-index: 1;
+            }
+            #loginButton{
+                position:absolute;
+                top: 335px;
+                left: 140px;
+                z-index: 2;
+            }
+            .block1 {
+                border: none;
+                background-color: #015db3;
+                color: white;
+                width: 150px;
+                height: 40px;
+                padding: 7px 7px;
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 2px;
+                z-index: 2;
+            }
+            .block1:hover {
+                background-color: #004d95;
+                z-index: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <button class = "button">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" style="position: absolute; width: 110px;top: 8px; left: 95px;">
+        </button>
+        <img id = "mainPicture" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP5-1920x600">
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; left: 240px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Microsoft 365
+        </a>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; left: 350px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+           Office
+        </a>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; left: 415px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Windows
+        </a>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; left: 500px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Поддержка
+        </a>
+        <button>
+            <img class = "button" src="LoginPic.png" style ="position: absolute; top: 6px; right: 80px; width: 40px">
+        </button>
+        <div id = "hide"></div>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; right: 135px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Войти
+        </a>
+        <button>
+            <img class = "button" src="https://cdn-icons-png.flaticon.com/512/54/54481.png" style ="position: absolute; top: 22px; right: 205px; width: 15px; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+        </button>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; right: 232px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Поиск
+        </a>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 21px; right: 300px; font-family: Helvetica; color:rgb(112,112,112); font-size: 14px;">
+            Продукты Майкрософт
+        </a>
+        <h1 id = "mainText">
+            Microsoft 365
+        </h1>
+        <p style="position: absolute; z-index: 2; font-family: Helvetica; top: 270px; left: 140px;">
+            Все, что вам нужно, чтобы достичь большего за меньшее время
+        </p>
+        <div id = "loginButton">
+            <a href="https://www.google.com">
+                <button class = "block1">
+                    Для 1 человека
+                </button>
+            </a>
+        </div>
+        <a class = "textButton" href = "https://www.google.com" style = "position: absolute; top: 345px; left: 330px; font-family: Helvetica; color:rgb(0, 0, 0); font-size: 15px; z-index: 2; font-weight: bold;">
+            До 6 человек >
+        </a>
+        <button>
+            <img class = "button" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Windows11-GlobalLaunch?wid=380&hei=213&fit=crop" style = "position: absolute; bottom: 175px; left: 80px ; height: 180px; width: 350px;">
+        </button>
+        <button>
+            <img class = "button" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-CP-Edge?wid=380&hei=213&fit=crop" style = "position: absolute; bottom: 175px; left: 480px; height: 180px; width: 350px;">
+        </button>
+        <button>
+            <img class = "button" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-CP-OneDriveCampaignRefresh-2?wid=380&hei=213&fit=crop" style = "position: absolute; bottom: 175px; right: 480px; height: 180px; width: 350px;">
+        </button>
+        <button>
+            <img class = "button" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-PC-SMB-OneNote?wid=380&hei=213&fit=crop" style = "position: absolute; bottom: 175px; right: 80px; height: 180px; width: 350px;">
+        </button>
+        <a href="https://www.google.com" style = "position: absolute; bottom: 50px; left: 80px; font-family: Helvetica; color: black; text-decoration: none; width: 340px; font-size: 14px;">
+            <span style = "font-weight: bold; font-size: 18px;">Разработано для жизни — сегодня и в будущем</span><br><br>
+            Следующее поколение игр. Ваши цели. Друзья и семья. С Windows 11 вы станете еще ближе к тому, что успели полюбить.
+            <a class = "textButton" style = "position: absolute; bottom: 15px; left: 80px; font-family: Helvetica; color:rgb(2, 114, 234); font-size: 15px; font-weight: bold; cursor: pointer;">
+                Проверьте, готов ли ваш ПК >
+            </a>
+        </a>
+        <a href="https://www.google.com" style = "position: absolute; bottom: 70px; left: 480px; font-family: Helvetica; color: black; text-decoration: none; width: 340px; font-size: 14px;">
+            <span style = "font-weight: bold; font-size: 18px;">Microsoft Edge</span><br><br>
+            Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.
+            <a class = "textButton" style = "position: absolute; bottom: 32px; left: 480px; font-family: Helvetica; color:rgb(2, 114, 234); font-size: 15px; font-weight: bold; cursor: pointer;">
+                Скачать >
+            </a>
+        </a>
+        <a href="https://www.google.com" style = "position: absolute; bottom: 73px; right: 490px; font-family: Helvetica; color: black; text-decoration: none; width: 340px; font-size: 14px;">
+            <span style = "font-weight: bold; font-size: 18px;">Microsoft OneDrive</span><br><br>
+            Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.
+            <a class = "textButton" style = "position: absolute; bottom: 35px; right: 735px; font-family: Helvetica; color:rgb(2, 114, 234); font-size: 15px; font-weight: bold; cursor: pointer;">
+                Подробнее >
+            </a>
+        </a>
+        <a href="https://www.google.com" style = "position: absolute; bottom: 105px; right: 90px; font-family: Helvetica; color: black; text-decoration: none; width: 340px; font-size: 14px;">
+            <span style = "font-weight: bold; font-size: 18px;">OneNote</span><br><br>
+            Приведите свои заметки и дела в порядок.
+            <a class = "textButton" style = "position: absolute; bottom: 65px; right: 305px; font-family: Helvetica; color:rgb(2, 114, 234); font-size: 15px; font-weight: bold; cursor: pointer;">
+                Узнать больше >
+            </a>
+        </a>
+
+    </body>
+</html>
