@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Instagram - login page</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: rgb(250, 250, 250);
+                overflow: hidden;
+            }
+            .box{
+                position: absolute;
+                top: 120px;
+                left: 870px;
+                width: 345px;
+                height: 390px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(211, 211, 211);
+                background-color: rgb(255, 255, 255);
+                z-index: 1;
+            }
+            .box1{
+                position: absolute;
+                top: 365px;
+                left: 1012px;
+                width: 60px;
+                height: 10px;
+                border-width: 1px;
+                background-color: rgb(255, 255, 255);
+                z-index: 3;
+            }
+            .box2{
+                position: absolute;
+                top: 525px;
+                left: 870px;
+                width: 345px;
+                height: 60px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(211, 211, 211);
+                background-color: rgb(255, 255, 255);
+                z-index: 1;
+            }
+            input {
+                height: 32px;
+                width: 270px;
+                margin: 4px;
+                border-radius: 3px;
+                border-width: 1px;
+                z-index: 2;
+            }
+            #inputs {
+                position: absolute;
+                top: 220px;
+                left: 900px;
+                z-index: 2;
+            }
+            #loginButton{
+                position:absolute;
+                top: 314px;
+                left: 904px;
+                z-index: 2;
+            }
+            .block1 {
+                width: 296px;
+                border: none;
+                background-color: #0282fa;
+                color: white;
+                width: 275px;
+                height: 32px;
+                padding: 7px 7px;
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 10px;
+                z-index: 2;
+            }
+            .block1:hover {
+                background-color: #0070da;
+                z-index: 2;
+            }
+            #registerButton{
+                position:absolute;
+                top: 470px;
+                left: 975px;
+                z-index: 2;
+            }
+            #forgotPassword{
+                position: absolute;
+                top: 470px;
+                left: 995px;
+                text-decoration: none;
+                color: #014d94;
+                font-family: Helvetica;
+                font-size: 13px;
+                width: 300px;
+                z-index: 2;
+            }
+            #loginFacebook{
+                position: absolute;
+                top: 410px;
+                left: 975px;
+                text-decoration: none;
+                color: #08467f;
+                font-family: Helvetica;
+                font-size: 14px;
+                font-weight: bold;
+                width: 300px;
+                z-index: 2;
+            }
+            #divider{
+                position: absolute;
+                width: 274px;
+                top: 360px;
+                left: 904px;
+                z-index: 2;
+            }
+            #addText{
+                position: absolute;
+                top: 595px;
+                left: 870px;
+                font-family: Helvetica;
+                font-size: 14px;
+                width: 350px;
+                text-align: center;
+                z-index: 2;
+            }
+            #instaLogo{
+                position:absolute;
+                top: 140px;
+                left: 940px;
+                width: 200px;
+                z-index: 2;
+            }
+            #ili{
+                position: absolute;
+                top: 348px;
+                left: 1028px;
+                z-index: 4;
+                font-family: Helvetica;
+                font-size: 13px;
+                color:rgb(155, 155, 155)
+            }
+            #facebookLogo{
+                position: absolute;
+                width: 15px;
+                top: 410px;
+                left: 950px;
+                z-index: 3;
+            }
+            .download {
+                position: absolute;
+                border: none;
+                cursor: pointer;
+                z-index: 2;
+            }
+            #picture{
+                position: absolute;
+                width: 400px;
+                height: 600px;
+                top: 100px;
+                left: 430px;
+            }
+            #otherStuff{
+                position: absolute;
+                bottom: 30px;
+                font-family: Helvetica;
+                font-size: 12px;
+                text-align: center;
+                width: 100%;
+                color: #7a7a7a;
+                text-decoration: none;
+                line-height: 18px;
+                z-index: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "RightSide">
+            <img id = "instaLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png">
+            <div id = "inputs">
+                <form>
+                    <input type="text" placeholder="Телефон, имя пользователя или эл.адрес"><br>
+                    <input type="password" placeholder="Пароль"><br>
+                </form>
+            </div>
+            <div id = "loginButton">
+                <a href="https://www.google.com">
+                    <button class = "block1">
+                        Войти
+                    </button>
+                </a>
+            </div>
+            <a href="https://www.google.com" id="loginFacebook">
+                Войти через Facebook
+            </a>
+            <img id = "facebookLogo" src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+            <a href="https://www.google.com" id = "forgotPassword">
+                Забыли пароль?
+            </a>
+            <hr id = "divider">
+            <div class = "box"></div>
+            <div class = "box1"></div>
+            <div class = "box2">
+                <p style = "margin: 14px; font-family: Helvetica; font-size: 15px; margin-top: 22px;">
+                    У вас еще нет аккаунта? <a href="https://www.google.com" style = "text-decoration: none; color:#0282fa">Зарегистрироваться</a>
+                </p>
+            </div>
+            <button class = "download" style = "top: 640px; left: 890px;">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yr/r/fDjwyLC88oO.png" style = "width: 150px;">
+            </button>
+            <button class = "download" style = "top: 640px; left: 1050px;">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yv/r/_UbeIRgTpG-.png" style = "width: 130px; height: 44px;">
+            </button>
+            <p id = "ili">
+                ИЛИ
+            </p>
+            <p id = "addText">
+                Установите приложение.
+            </p>
+        </div>
+        <img src="instaScreen.png" id = "picture">
+        <p id = "otherStuff">
+            <a href="https://www.google.com" style = "color: #7a7a7a; text-decoration: none;"><span style ="word-spacing: 10px;">Meta Информация Блог Вакансии Помощь API Конфиденциальность Условия Популярные аккаунты Места Instagram Lite Загурзка</span> контактов и лица, не являющиеся пользователями <br><br> <span style ="word-spacing: 15px;">Руссикй ©</span> 2023 Instagram from Meta</a>
+        </p>
+    </body>
+</html>
