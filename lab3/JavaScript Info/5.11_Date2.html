@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        function getWeekDay(date) {
+            let days = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
+
+            return days[date.getDay()];
+        }
+
+        let date = new Date(2014, 0, 3);
+        alert( getWeekDay(date) ); 
+    </script>
+</body>
+</html>
