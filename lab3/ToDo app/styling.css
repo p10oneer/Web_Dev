@@ -1,0 +1,17 @@
+#task-list {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+#enters {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+#title {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
