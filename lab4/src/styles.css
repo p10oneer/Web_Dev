@@ -109,7 +109,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: rgb(157, 0, 255);
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -119,7 +119,9 @@ app-top-bar {
 
 app-top-bar h1 {
   color: white;
+  font-weight: bold;
   margin: 0;
+  
 }
 
 /* Checkout Cart, Shipping Prices */
@@ -137,6 +139,30 @@ app-top-bar h1 {
   background-color: #EEEEEE;
 }
 
+.panel-with-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width:400px;
+
+}
+
+.panel-with-product-content {
+  display: flex;
+  justify-content: space-evenly;
+  width:400px;
+}
+
+.product-name { 
+  margin: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width:400px;
+}
+
+hr {
+  margin: 10px 0px 40px 0px;
+  border: 1px solid gray;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
